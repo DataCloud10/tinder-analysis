@@ -1,0 +1,48 @@
+.metric-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 250px;
+    transition: transform 0.2s ease;
+}
+
+.metric-box:hover {
+    transform: translateY(-5px);
+}
+
+.metric-box h2 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.metric-box p {
+    margin: 10px 0 0;
+    color: #7f8c8d;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+/* Graph container styling */
+.dash-graph {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    padding: 15px;
+    margin: 10px;
+    transition: transform 0.2s ease;
+}
+
+.dash-graph:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
